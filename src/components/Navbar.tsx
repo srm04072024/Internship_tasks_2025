@@ -22,9 +22,9 @@ export default function Navbar() {
         isMobile ? " rounded-br-[20rem]" : "bg-white"
       }`}
     >
-      <nav className="flex items-center justify-between px-8">
+      <nav className="flex items-center justify-between px-6">
         <Link href="/Home">
-          <div className="h-[15vh] w-[15vw] relative">
+          <div className="h-[17vh] w-[15vw] relative">
             <Image
               src="/logo.png"
               alt="Dzynfox"
